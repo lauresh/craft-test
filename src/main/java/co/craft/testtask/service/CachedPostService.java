@@ -1,6 +1,6 @@
 package co.craft.testtask.service;
 
-import co.craft.testtask.client.PostClient;
+import co.craft.testtask.gateway.PostClient;
 import co.craft.testtask.dao.PostDao;
 import co.craft.testtask.model.Post;
 import co.craft.testtask.service.exception.PostServiceException;
@@ -16,9 +16,9 @@ import java.util.List;
  */
 @Service
 @Transactional
-public class CachedPostServiceImpl implements PostService{
+public class CachedPostService implements PostService{
 
-    private static final Logger logger = Logger.getLogger(CachedPostServiceImpl.class);
+    private static final Logger logger = Logger.getLogger(CachedPostService.class);
 
     @Autowired
     PostDao postDao;

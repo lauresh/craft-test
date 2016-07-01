@@ -29,7 +29,7 @@ import java.util.Properties;
         "co.craft.testtask.service",
         "co.craft.testtask.model",
         "co.craft.testtask.dao",
-        "co.craft.testtask.client"})
+        "co.craft.testtask.gateway"})
 @PropertySource(value = { "classpath:app.properties" })
 @EnableTransactionManagement
 public class TaskConfiguration {

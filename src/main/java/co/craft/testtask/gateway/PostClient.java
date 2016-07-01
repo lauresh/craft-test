@@ -1,4 +1,4 @@
-package co.craft.testtask.client;
+package co.craft.testtask.gateway;
 
 import co.craft.testtask.model.Post;
 

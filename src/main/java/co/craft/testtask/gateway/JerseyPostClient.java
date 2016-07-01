@@ -1,4 +1,4 @@
-package co.craft.testtask.client;
+package co.craft.testtask.gateway;
 
 import co.craft.testtask.model.Post;
 import org.apache.log4j.Logger;
@@ -14,9 +14,9 @@ import javax.ws.rs.core.Response;
  * Created by ylauresh on 6/30/16.
  */
 @Component
-public class JerseyPostClientImpl implements PostClient{
+public class JerseyPostClient implements PostClient{
 
-    private static final Logger logger = Logger.getLogger(JerseyPostClientImpl.class);
+    private static final Logger logger = Logger.getLogger(JerseyPostClient.class);
 
     @Value("${post.resource.host}")
     String postHost;

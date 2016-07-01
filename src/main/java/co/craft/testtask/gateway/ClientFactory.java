@@ -1,4 +1,4 @@
-package co.craft.testtask.client;
+package co.craft.testtask.gateway;
 
 /**
  * Created by ylauresh on 6/30/16.
@@ -14,7 +14,7 @@ public final class ClientFactory {
 
     public static Client create() {
         ClientConfig clientConfig = new ClientConfig();
-//      Some tuning of client we can do here, for example:
+//      Some tuning of gateway we can do here, for example:
 //      clientConfig.connectorProvider(new ApacheConnectorProvider());
 //
 //      clientConfig.property(ClientProperties.READ_TIMEOUT, ...);

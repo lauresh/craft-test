@@ -16,9 +16,9 @@ import java.util.stream.Collectors;
  * Created by ylauresh on 6/30/16.
  */
 @RestController
-public class TaskController {
+public class PostController {
 
-    private static final Logger logger = Logger.getLogger(TaskController.class);
+    private static final Logger logger = Logger.getLogger(PostController.class);
 
     @Autowired
     PostService postService;

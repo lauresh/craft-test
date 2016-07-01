@@ -21,10 +21,4 @@ public class TaskWebInitializer extends AbstractAnnotationConfigDispatcherServle
     protected String[] getServletMappings() {
         return new String[] {"/api/*"};
     }
-
-    @Override
-    protected Filter[] getServletFilters() {
-        Filter[] singleton = { new CORSFilter()};
-        return singleton;
-    }
 }

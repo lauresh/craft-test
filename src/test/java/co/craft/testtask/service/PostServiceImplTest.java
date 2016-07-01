@@ -1,6 +1,6 @@
 package co.craft.testtask.service;
 
-import co.craft.testtask.client.PostClient;
+import co.craft.testtask.gateway.PostClient;
 import co.craft.testtask.dao.PostDao;
 import co.craft.testtask.model.Post;
 import co.craft.testtask.service.exception.PostServiceException;
@@ -25,7 +25,7 @@ import static org.mockito.MockitoAnnotations.initMocks;
 public class PostServiceImplTest {
 
     @InjectMocks
-    private CachedPostServiceImpl service = new CachedPostServiceImpl();
+    private CachedPostService service = new CachedPostService();
 
     @Mock
     PostDao postDao;
